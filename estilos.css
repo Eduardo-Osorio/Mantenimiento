@@ -130,7 +130,7 @@ input{
     justify-content: center;
     padding-top: 30px; 
     padding-bottom: 30px;
-    background-image: url(./multimedia/logo-largo.jpg);
+    background-image: url(./multimedia/logo-largo.webp);
     background-size: cover;
     background-position: top;
     overflow: hidden;
@@ -377,7 +377,7 @@ input[type=radio]{
     border-bottom-right-radius: 10px;
     align-items: center;
     justify-content: center;
-    background-image: url(./multimedia/registro-background.jpg);
+    background-image: url(./multimedia/registro-background.webp);
     background-size: cover;
     background-position: center;
     opacity: 0.9;
