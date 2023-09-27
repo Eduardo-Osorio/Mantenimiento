@@ -122,7 +122,7 @@ input{
 }
 
 /*imagenes deslizables*/
-.container_slider{
+.section_slider{
     height: 320px;
     margin: 0;
     display: flex;
@@ -138,7 +138,7 @@ input{
 input[type=radio]{
     display: none;
 }
-.container{
+.container_slider{
     width: 95%;
     height: 90%;
     max-width: 800px;
@@ -203,9 +203,7 @@ input[type=radio]{
 /*inician divs principales a travez de un main*/
 
 /*contenedor principal de sobre nosotros y sobre adoptar*/
-.contenido-general{
-    margin: 2%;
-}
+
 
 /*primer contenedor informativo (sobre nosotros)*/
 .container-nosotros {
@@ -280,7 +278,7 @@ input[type=radio]{
 }
 
 /*seccion de adopcion*/
-.en-adopcion{
+.title-adopcion{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -293,18 +291,18 @@ input[type=radio]{
     justify-content: center;
     text-align: center;
 }
-.en-adopcion h2{
+.title-adopcion h2{
     color: var(--color-blanco);
     font-size: 25px;
     width: 80%;
 }
-.p1{
+.p1-adopcion{
     font-size: 20px;
 }
-.p2{
+.p2-adopcion{
     font-size: 20px;
 }
-.un-hogar{
+.slogan-adopcion{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -312,7 +310,7 @@ input[type=radio]{
     background-color: whitesmoke;
     text-align: center;
 }
-.un-hogar p{
+.slogan-adopcion p{
     font-size: 13px;
     color: var(--color-background-principal);
 }
@@ -370,7 +368,7 @@ input[type=radio]{
 
 /*Aqui inicia seccion de formulario*/
 
-.datos-usuario {
+.section_registro {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -459,7 +457,7 @@ input[type=radio]{
     padding-bottom: 4%;
 }
 
-.section-contactos{
+.section_contactos{
     background-color: var(--color-backgounds-azules);
 }
 .titulo-contactos{
