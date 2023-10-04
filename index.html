@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -27,6 +28,7 @@
     <header class="header-large"></header>
 
     <main class="contenido-general">
+
         <section class="section_slider">
             <div class="container_slider">
                 <input type="radio" name="slider" id="item-1" checked>
@@ -48,7 +50,6 @@
         </section>
 
         <section class="section_nosotros">
-
             <div class="container-nosotros">
                 <div class="logo-nosotros">
                     <img src="./multimedia/logo principal.webp">
@@ -64,7 +65,6 @@
                     </p>
                 </div>
             </div>
-
             <div class="container-adopcion">
                 <div class="logo-adopta">
                     <img src="./multimedia/scarlett-3.webp">
@@ -83,18 +83,21 @@
         </section>
 
         <section class="section_adopcion">
-            <div class="title-adopcion">
-                <p class="p1-adopcion">🐾</p>
-                <h2>En adopción</h2>
-                <p class="p2-adopcion">🐾</p>
+            <div class="container-title">
+                <div class="title-adopcion">
+                    <p>🐾</p>
+                    <h2>En adopción</h2>
+                    <p>🐾</p>
+                </div>
+                <div class="slogan-adopcion">
+                    <p>Todos merecen un hogar seguro</p>
+                </div>
             </div>
-            <div class="slogan-adopcion">
-                <p>Todos merecen un hogar seguro</p>
-            </div>
+
             <div class="container-catalogo">
-                <article class="preview">
+                <article class="preview-top">
                     <div class="container-img-dog">
-                        <img src="./multimedia/img-slider-1.webp">
+                        <img src="./multimedia/img-4.webp">
                     </div>
                     <div class="container-detalles-dog">
                         <p>
@@ -122,7 +125,7 @@
                 </article>
                 <article class="preview">
                     <div class="container-img-dog">
-                        <img src="./multimedia/img-slider-1.webp">
+                        <img src="./multimedia/img-5.webp">
                     </div>
                     <div class="container-detalles-dog">
                         <p>
@@ -136,7 +139,7 @@
                 </article>
                 <article class="preview">
                     <div class="container-img-dog">
-                        <img src="./multimedia/img-slider-1.webp">
+                        <img src="./multimedia/img-slider-2.webp">
                     </div>
                     <div class="container-detalles-dog">
                         <p>
@@ -150,7 +153,7 @@
                 </article>
                 <article class="preview">
                     <div class="container-img-dog">
-                        <img src="./multimedia/img-slider-1.webp">
+                        <img src="./multimedia/img-6.webp">
                     </div>
                     <div class="container-detalles-dog">
                         <p>
@@ -162,9 +165,9 @@
                         </p>
                     </div>
                 </article>
-                <article class="preview">
+                <article class="preview-bottom">
                     <div class="container-img-dog">
-                        <img src="./multimedia/img-slider-1.webp">
+                        <img src="./multimedia/img-slider-3.webp">
                     </div>
                     <div class="container-detalles-dog">
                         <p>
@@ -183,36 +186,27 @@
             <div class="registrate-titulo">
                 <h2>Registrate</h2>
             </div>
-            <form class="form-container" action="./datos.json" method="post">
-
+            <form class="form-container" action="" method="post">
                 <div class="form-nombre">
-                    <label class="labels-form for=" Nombre">Nombre</label>
-                    <input class="inputs-form" type="text" placeholder="Ingrese su Nombre" name="Nombre">
+                    <label class="labels-form for=" Nombre"></label>
+                    <input class="inputs-form" type="text" placeholder="Nombre y Apellido" name="Nombre">
                 </div>
-
-                <div class="form-apellido">
-                    <label class="labels-form" for="Apellido">Apellido</label>
-                    <input class="inputs-form" type="text" placeholder="Ingrese su Apellido" name="Apellido">
-                </div>
-
                 <div class="form-telefono">
-                    <label class="labels-form" for="Telefono">Numero Telefonico</label>
-                    <input class="inputs-form" type="tel" placeholder="+52 81-68-52-1589" name="Telefono">
+                    <label class="labels-form" for="Telefono"></label>
+                    <input class="inputs-form" type="tel" placeholder="Numero de Telefono" name="Telefono">
                 </div>
-
                 <div class="form-correo">
-                    <label class="labels-form" for="Correo">Correo Electronico <span
-                            class="opcional">*opcional</span></label>
-                    <input class="inputs-form" type="email" placeholder="Ingrese su correo electronico" name="Correo">
+                    <label class="labels-form" for="Correo"></label>
+                    <input class="inputs-form" type="email" placeholder="Correo Electronico (opcional)" name="Correo">
                 </div>
-
+                
                 <div class="boton-enviar">
-                    <input class="form-enviar" type="submit" value="Enviar">
+                    <input class="input-enviar" type="submit" value="Enviar">
                     <input type="hidden" name="_next" value="https://es-la.facebook.com/">
                     <input type="hidden" name="_captcha" value="false">
                 </div>
-
             </form>
+
         </section>
 
         <section class="section_contactos">
@@ -236,28 +230,27 @@
                     <img src="./multimedia/scarlett-background.webp" alt="">
                 </div>
                 <div class="enlaces-redes">
-
-                    <a href="http://127.0.0.1:5500/index.html" class="red-link-container" target="_blank">
+                    <a href="https://instagram.com/rescatando_huellitas_tlaxcala?igshid=MzRlODBiNWFlZA==" class="red-link-container" target="_blank">
                         <img class="red-icon" src="./multimedia/instagram-icon.webp" alt="">
                         <h2>@rescatando_huellitas</h2>
                     </a>
-                    <a href="http://127.0.0.1:5500/index.html" class="red-link-container" target="_blank">
+                    <a href="http://www.facebook.com/profile.php?id=100083191217889" class="red-link-container" target="_blank">
                         <img class="red-icon" src="./multimedia/facebook-icon.webp" />
                         <h2>Rescatando Huellitas</h2>
                     </a>
-                    <a href="http://127.0.0.1:5500/index.html" class="red-link-container" target="_blank">
+                    <a href="https://instagram.com/scaarleett?igshid=MzRlODBiNWFlZA==" class="red-link-container" target="_blank">
                         <img class="red-icon" src="./multimedia/instagram-icon.webp" />
                         <h2>@scaarlett</h2>
                     </a>
-                    <a href="http://127.0.0.1:5500/index.html" class="red-link-container" target="_blank">
+                    <a href="http://x.com/scarlettorea1" class="red-link-container" target="_blank">
                         <img class="red-icon" src="./multimedia/x-icon.webp" />
                         <h2>@scarlettorea1</h2>
                     </a>
-                    <a href="http://127.0.0.1:5500/index.html" class="red-link-container" target="_blank">
+                    <a href="http://eduardo-osorio.github.io/Mantenimiento/" class="red-link-container" target="_blank">
                         <img class="red-icon" src="./multimedia/whatsapp-icon.webp" />
                         <h2>+52 247-204-8800</h2>
                     </a>
-                    <a href="http://127.0.0.1:5500/index.html" class="red-link-container" target="_blank">
+                    <a href="http://eduardo-osorio.github.io/Mantenimiento/" class="red-link-container" target="_blank">
                         <img class="red-icon" src="./multimedia/gmail-icon.webp" />
                         <h2>Correo Directo</h2>
                     </a>
@@ -265,45 +258,43 @@
             </article>
         </section>
     </main>
-
     <footer class="developing">
         <div class="areas">
-            <a href="">
+            <a href="https://instagram.com/edu_osorio47?igshid=NzZlODBkYWE4Ng==">
                 <h2>Diseño Web</h2>
                 <h3>Eduardo Osorio</h3>
             </a>
             <hr>
-            <a href="">
+            <a href="https://github.com/Eduardo-Osorio">
                 <h2>Programacion Web</h2>
                 <h3>Eduardo Osorio</h3>
             </a>
             <hr>
-            <a href="">
+            <a href="https://github.com/Eduardo-Osorio">
                 <h2>Equipo de desarrollo</h2>
                 <h3>Algos MVP™</h3>
             </a>
             <hr>
-            <a href="">
+            <a href="https://instagram.com/scaarleett?igshid=MzRlODBiNWFlZA==">
                 <h2>CEO de Rescatando Huellitas</h2>
                 <h3>Scarlett Orea</h3>
             </a>
             <hr>
-            <a href="">
+            <a href="https://instagram.com/rescatando_huellitas_tlaxcala?igshid=MzRlODBiNWFlZA==">
                 <h2>Dedicada a</h2>
                 <h3>Rescatando Huellitas Tlaxcala™</h3>
             </a>
             <hr>
-            <a href="">
+            <a href="https://instagram.com/rescatando_huellitas_tlaxcala?igshid=MzRlODBiNWFlZA==">
                 <h2>Derechos de la web</h2>
                 <h3>Algos MVP™ y Rescatando Huellitas™</h3>
             </a>
             <hr>
-            <a href="">
+            <a href="https://github.com/Eduardo-Osorio">
                 <h2>Derechos de codigo fuente</h2>
                 <h3>Algos MVP™</h3>
             </a>
         </div>
-
         <p class="declaraciones">
             Esta pagina web está echa sin fines de lucro por parte
             de los desarrolladores (Algos MVP™). Fue otorgada a la fundacion Rescatando Huellitas
@@ -316,7 +307,5 @@
         </p>
     </footer>
 
-    <script src="./script.js"></script>
 </body>
-
 </html>
