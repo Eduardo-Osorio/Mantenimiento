@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+
+:root {
+    --c-4: #f0faff;
+    --c-3: #e1f3fd;
+    --c-2: #bbe9fc;
+    --c-1: #7fd8fa;
+    --c0: #2fc1f4;
+    --c1: #12aee5;
+    --c2: #058cc4;
+    --c3: #066f9e;
+    --c4: #095e83;
+    --c5: #0e4f6c;
+    --c6: #093248;
+    --cfb: #1777f0;
+    --cig1: #515bd4;
+    --cig2: #8134af;
+    --cig3: #dd2a7b;
+    --cig4: #feda77;
+    --cig5: #f58529;
+    --ctw1: #0084b4;
+    --ctw2: #13111d;
+    --cwh1: #128c7f;
+    --cwh2: #26d367;
+}
+
+.web-icon {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+@keyframes deslizar1 {
+    0% {
+        translate: 100%;
+    }
+}
+
+@keyframes deslizar2 {
+    0% {
+        translate: -100%;
+    }
+}
+
+@keyframes scale1 {
+    0% {
+        transform: scale(0.1);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes opacity1 {
+    0% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+/*!-Enlaces utilizados en la pagina*/
