@@ -1,0 +1,161 @@
+@media screen and (min-width: 469px) and (max-width: 618px) {
+
+
+
+    /*
+    .developing {
+        display: flex;
+        background-color: #282828;
+        margin: auto;
+        flex-direction: column;
+
+    }
+
+    .areas {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 4%;
+        margin-bottom: 1%;
+        color: gray;
+    }
+
+    .areas a {
+        display: flex;
+        align-items: center;
+        padding: 1%;
+    }
+
+    .areas h2 {
+        width: 45%;
+        text-align: left;
+        margin-right: auto;
+        color: rgb(172, 172, 172);
+        font-size: 8px;
+        font-weight: 200;
+        border-right-width: 1px;
+        border-right-color: rgb(172, 172, 172);
+    }
+
+    .areas h3 {
+        width: 55%;
+        color: rgb(172, 172, 172);
+        text-align: right;
+        margin-left: auto;
+        font-size: 8px;
+        font-weight: 100;
+    }
+
+    .areas hr {
+        height: 1px;
+        border-top-width: 1px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+    }
+
+    .declaraciones {
+        color: gray;
+        font-size: 7px;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 2%;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        padding-bottom: 2%;
+        color: rgb(172, 172, 172);
+    }
+*/
+
+
+
+
+
+    /*?Contenido a ocultar en Tablets*/
+    .contenido_general_movil,
+    .contenido_general_escritorio,
+    .header_movil,
+    .header_escritorio,
+    .developing {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 619px) and (max-width: 768px) {
+    /*
+    .developing {
+        display: flex;
+        background-color: #282828;
+        margin: auto;
+        flex-direction: column;
+
+    }
+
+    .areas {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 4%;
+        margin-bottom: 1%;
+        color: gray;
+    }
+
+    .areas a {
+        display: flex;
+        align-items: center;
+        padding: 1%;
+    }
+
+    .areas h2 {
+        width: 45%;
+        text-align: left;
+        margin-right: auto;
+        color: rgb(172, 172, 172);
+        font-size: 8px;
+        font-weight: 200;
+        border-right-width: 1px;
+        border-right-color: rgb(172, 172, 172);
+    }
+
+    .areas h3 {
+        width: 55%;
+        color: rgb(172, 172, 172);
+        text-align: right;
+        margin-left: auto;
+        font-size: 8px;
+        font-weight: 100;
+    }
+
+    .areas hr {
+        height: 1px;
+        border-top-width: 1px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
+        border-right-width: 0px;
+    }
+
+    .declaraciones {
+        color: gray;
+        font-size: 7px;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 2%;
+        margin-top: 1%;
+        margin-bottom: 4%;
+        padding-bottom: 2%;
+        color: rgb(172, 172, 172);
+    }
+*/
+
+
+
+
+
+
+    /*?Contenido a ocultar en Tablets*/
+    .contenido_general_movil,
+    .contenido_general_escritorio,
+    .header_movil,
+    .header_escritorio,
+    .developing {
+        display: none;
+    }
+}
